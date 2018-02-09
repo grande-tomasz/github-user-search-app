@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:#333333;
+  color: white;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#root form {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#root form label,
+#root form input {
+  display: block;
+  margin: 0.5rem;
+  font-size: 2rem;
+}
+#root form input {
+  width: 330px;
+}
+
+#root .user {
+  display: flex;
+  align-items: center;
+}
+#root .user img,
+#root .user a {
+  margin: 0.25rem;
+}
+#root .user img {
+  border-radius: 5px;
+}
+#root .user a {
+  text-decoration: none;
+  color: white;
+}
+#root .user a:hover {
+  text-decoration: underline;
+  /* color: white; */
+}
